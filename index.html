@@ -1,49 +1,13 @@
+</html>
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chatbot Mecánico - Dialogflow CX</title>
-    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
     <style>
-        df-messenger {
-            z-index: 999;
-            position: fixed;
-            --df-messenger-font-size: 16px;
-            --df-messenger-font-color: #000;
-            --df-messenger-font-family: Google Sans;
-            --df-messenger-chat-background: #F6ECF8;
-            --df-messenger-message-user-background: #C8E6C9;
-            --df-messenger-message-bot-background: #E1BEE7;
-            bottom: 0;
-            right: 0;
-            top: 0;
-            width: 100%;
-        }
-
-        @media screen and (max-width: 600px) {
-            df-messenger {
-                --df-messenger-font-size: 18px; /* Ajustar el tamaño de fuente */
-                width: 100%; /* Ajustar el ancho */
-                height: 100%; /* Ajustar la altura */
-                bottom: 0; /* Colocar en la parte inferior */
-                right: 0; /* Colocar en la parte derecha */
-                top: unset; /* Restablecer la posición superior */
-            }
-        }
+        /* Your styles here */
     </style>
 </head>
 <body>
-    <df-messenger
-        location="us-central1"
-        project-id="pristine-nomad-422418-f2"
-        agent-id="8a04165b-1f0c-44c3-b836-7a601161ebed"
-        language-code="es"
-        max-query-length="-1"
-        allow-feedback="all">
-        <df-messenger-chat
-            chat-title="Chat Mecánico">
-        </df-messenger-chat>
-    </df-messenger>
+    <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/306fc9bb-3cef-4959-ab5e-d04dec0778bf"></iframe>
     <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
 </body>
 </html>
